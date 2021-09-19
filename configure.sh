@@ -10,8 +10,8 @@ sudo dscl . -create /Users/vncuser RealName "VNC User"
 sudo dscl . -create /Users/vncuser UniqueID 1001
 sudo dscl . -create /Users/vncuser PrimaryGroupID 80
 sudo dscl . -create /Users/vncuser NFSHomeDirectory /Users/vncuser
-sudo dscl . -passwd /Users/vncuser $1
-sudo dscl . -passwd /Users/vncuser $1
+sudo dscl . -passwd /Users/vncuser 181999
+sudo dscl . -passwd /Users/vncuser 181999
 sudo createhomedir -c -u vncuser > /dev/null
 
 #Enable VNC
